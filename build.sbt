@@ -28,6 +28,7 @@ lazy val root = (project in file("."))
         "com.microsoft.sqlserver" % "mssql-jdbc" % "12.7.0.jre11-preview",
         "net.sourceforge.jtds" % "jtds" % "1.3.1",
       "com.h2database" % "h2" % "2.2.224",
-      "org.flywaydb" % "flyway-core" % "8.5.13"
-         )
+      "org.flywaydb" % "flyway-core" % "8.5.13",
+      "mysql" % "mysql-connector-java" % "5.1.24"
+    )
   )
